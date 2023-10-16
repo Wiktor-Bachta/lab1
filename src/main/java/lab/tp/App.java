@@ -21,7 +21,7 @@ public class App {
             while (true) {
                 System.out.println(
                         "Co chcesz zrobić? w - wypożyczyć, d - dodać książkę, "
-                                + "u - usunąć, z - zobaczyc ksiazki x - wyjść");
+                                + "u - usunąć, z - zobaczyc ksiazki x - wyjdź");
                 odpowiedz = reader.nextLine();
                 if ("w".equals(odpowiedz)) {
                     System.out.println("Którą?");
