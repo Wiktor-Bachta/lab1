@@ -33,7 +33,7 @@ public class App {
           osoba.usunksiazke(stan, reader);
         } else if ("d".equals(odpowiedz)) {
           osoba.dodajksiazke(stan, reader);
-        } else if ("z".equals(odpowiedz)) {
+        } else if (odpowiedz.equals("z")) {
           stan.pokaz();
         } else {
           break;
