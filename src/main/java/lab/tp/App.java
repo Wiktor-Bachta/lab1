@@ -9,7 +9,7 @@ public class App {
     Zbior stan = new Zbior();
     while (true) {
       System.out.println("Kim jesteś? k - klient, "
-          + "b - bibliotekarz, x - wyjdź");
+          + "b - bibliotekarz, x - wyjść");
       String odpowiedz = reader.nextLine();
       if ("k".equals(odpowiedz)) {
         osoba = new Klient();
